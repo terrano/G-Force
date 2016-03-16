@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/selecta"
+            android:checked="true"
+            android:title="Переключатель A"/>
+        <item
+            android:id="@+id/selectb"
+            android:title="Переключатель B"/>
+        <item
+            android:id="@+id/selectc"
+            android:title="Переключатель C"/>
+    </group>
+
+</menu>

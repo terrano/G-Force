@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.example.g_forcesensor"
+    android:key="preference_screen" >
+
+    <PreferenceCategory
+        android:enabled="true"
+        android:summary="@string/SensorSettingsSummary"
+        android:title="@string/SensorSettings" >
+        <ListPreference
+            android:defaultValue="@string/Medium"
+            android:entries="@array/sensitivity_list"
+            android:entryValues="@array/sensitivity_list"
+            android:key="sensitivity"
+            android:summary="@string/SensorSpeedSummary"
+            android:title="@string/SensorSpeed" />
+
+        <com.example.g_forcesensor.SeekBarPreference
+            android:defaultValue="30"
+            android:key="threshold"
+            android:persistent="true"
+            android:summary="@string/GValueSummary"
+            android:title="@string/GValue"
+            example:maxValue="70"
+            example:minValue="20" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

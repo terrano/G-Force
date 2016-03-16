@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">G-Force Sensor</string>
+    <string name="action_settings">Settings</string>
+    <string name="Last">Last:</string>
+    <string name="delete">DELETE</string>
+    <string name="deleteAll">DELETE ALL</string>
+    <string name="Max">Max:</string>
+    <string name="rusure">Are You Sure?</string>
+    <string name="rusure_message">You are about to delete all records, proceed?</string>
+    <string name="GoBackground">Start Tracking!</string>
+    <string name="StopBackGround">Stop Tracking</string>
+    <string name="Menu">Menu</string>
+    <string name="JumpList">Records</string>
+    <string name="quit">Quit</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    
+    <string name="SensorSettings">Sensor Settings</string>
+    <string name="SensorSettingsSummary">Sensor Modes</string>
+    <string name="SensorSpeed">Sensor Speed</string>
+    <string name="SensorSpeedSummary">High speed consumes more battery</string>
+    
+    <string name="Low">Low</string>
+    <string name="Medium">Medium</string>
+    <string name="Fast">Fast</string>
+    <string name="Maximum">Maximum</string>
+    
+    
+    <string name="GValue">G Force Vlaue</string>
+    <string name="GValueSummary">which min G should be tracked</string>
+    <string name="MaxGChart_text">G=</string>
+    <string name="duration">Duration: </string>
+    
+    <string name="threshold_enscript">Threshold:</string>
+    <string name="gforce">G-Force</string>
+    
+    <string name="content_text">background mode</string>
+    
+    <string name="vendor">Vendor:</string>
+    <string name="model">Model:</string>
+    <string name="power">Power:</string>
+    <string name="version">Version:</string>      
+    
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_all_question">You are about to delete all records, proceed?</string>
+    
+</resources>

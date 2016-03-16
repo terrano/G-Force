@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">G-Force Sensor</string>
+    <string name="action_settings">Настройки</string>
+    <string name="Last">Последний:</string>
+    <string name="delete">УДАЛИТЬ</string>
+    <string name="deleteAll">УДАЛИТЬ ВСЕ</string>
+    <string name="Max">МАКС:</string>
+    <string name="rusure">Впевнені?</string>
+    <string name="rusure_message">Вы хотите удалить все записи?</string>
+    <string name="GoBackground">Записывать в фоне</string>
+    <string name="StopBackGround">Остановить фоновую запись</string>
+    <string name="Menu">Меню</string>
+    <string name="JumpList">Записи</string>
+    <string name="quit">Выйти</string>
+    <string name="settings">Настройки</string>
+    <string name="about">Инфо</string>
+    <string name="duration">Длина: </string>
+    <string name="SensorSettings">Настройка сенсора</string>
+    <string name="SensorSettingsSummary">Режымы сенсора</string>
+    <string name="SensorSpeed">Скорость сенсора</string>
+    <string name="SensorSpeedSummary">Высокая скорость быстрее садит батарею</string>
+    <string name="Low">Низкая</string>
+    <string name="Medium">Средня</string>
+    <string name="Fast">Высокая</string>
+    <string name="Maximum">Максимальная</string>
+    <string name="GValue">Значение G</string>
+    <string name="GValueSummary">какое минимальное G записывать</string>
+    <string name="MaxGChart_text">G=</string>
+    <string name="threshold_enscript">Порог:</string>
+    <string name="gforce">G-Сила</string>
+    
+    <string name="content_text">фоновый режим</string>
+        
+    <string name="vendor">Производитель:</string>
+    <string name="model">Модель:</string>
+    <string name="power">Мощность:</string>
+    <string name="version">Версия:</string>     
+    
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="delete_all_question">Вы удаляете все записи, продолжить?</string>
+    
+</resources>

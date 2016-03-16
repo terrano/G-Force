@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.g_forcesensor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyStyle" >
+        <activity
+            android:name="com.example.g_forcesensor.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:theme="@style/MyStyle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.g_forcesensor.FullScreenChartViewActivity"
+            android:noHistory="true"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.db.ShakeViewActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyStyle" >
+        </activity>
+        <activity
+            android:name="com.example.db.JumpListActivity_Obsolete"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.db.DBListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyStyle" >
+        </activity>
+        <activity
+            android:name="com.example.g_forcesensor.SettingsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyStyle" >
+        </activity>
+        <activity
+            android:name="com.example.g_forcesensor.AboutInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyStyle" >
+        </activity>
+
+        <service android:name="com.example.g_forcesensor.MyService" >
+        </service>
+    </application>
+
+</manifest>

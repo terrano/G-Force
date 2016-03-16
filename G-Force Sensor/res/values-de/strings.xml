@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">G-Kraft Sensor</string>
+    <string name="action_settings">Geräteeinstellungen</string>
+    <string name="Last">Last:</string>
+    <string name="delete">Löschen</string>
+    <string name="deleteAll">Löschen Alles</string>
+    <string name="Max">Max:</string>
+    <string name="rusure">Sind Sie sicher?</string>
+    <string name="rusure_message">Möchten Sie alle Aufzeichnungen entfernen?</string>
+    <string name="GoBackground">Start Verfolgung!</string>
+    <string name="StopBackGround">Stop Verfolgung</string>
+    <string name="Menu">Menü</string>
+    <string name="JumpList">Aufzeichnungen</string>
+    <string name="quit">Aufgeben</string>
+    <string name="settings">Geräteeinstellungen</string>
+    <string name="about">Info</string>
+    <string name="duration">Länge: </string>
+    <string name="SensorSettings">Sensoreinstellungen</string>
+    <string name="SensorSettingsSummary">Sensormodi</string>
+    <string name="SensorSpeed">Empfindlichkeit</string>
+    <string name="SensorSpeedSummary">Sensor geschwindigkeit</string>
+    
+    <string name="Low">Niedrig</string>
+    <string name="Medium">Medium</string>
+    <string name="Fast">Schnell</string>
+    <string name="Maximum">Maximum</string>
+    
+    <string name="GValue">G Kraft Völlig</string>
+    <string name="GValueSummary">Welche min G verfolgt werden</string>
+    <string name="MaxGChart_text">G=</string>
+    <string name="threshold_enscript">die Türschwelle:</string>
+    <string name="gforce">G-Kraft</string>
+    
+    <string name="content_text">im Hintergrund bleiben</string>
+        
+    <string name="vendor">Verkäufer:</string>
+    <string name="model">Modell:</string>
+    <string name="power">Betreiben:</string>
+    <string name="version">Fassung:</string>     
+    
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="delete_all_question">Sie löschen alles eintragen, übergehen?</string>
+    
+</resources>

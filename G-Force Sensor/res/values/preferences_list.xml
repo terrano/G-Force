@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sensitivity_list">
+        <item name="1">@string/Low</item>
+        <item name="2">@string/Medium</item>
+        <item name="3">@string/Fast</item>
+        <item name="4">@string/Maximum</item>
+    </string-array>
+
+</resources>
