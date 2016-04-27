@@ -21,7 +21,7 @@ abstract class MyActivity extends Activity{
 	
 	protected void createSrevicConnectionInstance(){
      	if (myServiceConnection == null) {
-    		
+
     	    myServiceConnection = new ServiceConnection() {	
 	    		@Override
 	    		public void onServiceDisconnected(ComponentName name) {}
