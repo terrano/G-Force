@@ -10,9 +10,9 @@ pipeline {
         stage('Build with Gradle') {
             steps {
                 echo 'Building..'
-          #      withGradle() {
-          #          sh './gradlew -v'
-          #      }
+          /*      withGradle() {
+                    sh './gradlew -v'
+          */      }
             }
         }
         stage('Pull changes test...') {
@@ -21,7 +21,7 @@ pipeline {
                 script {
                     def test = 2 + 2 > 3 ? "cool" : "really?"
                     echo test
-                #    sh './gradlew -v'
+                //    sh './gradlew -v'
                 }
             }
         }
