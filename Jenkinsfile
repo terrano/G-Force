@@ -22,7 +22,7 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        stage('Just testing') {
+        stage('Just another testing') {
             steps {
                 echo 'Small step for a man...'
                 echo '...Jaint leap for mankind'
