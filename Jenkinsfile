@@ -1,6 +1,10 @@
 
 pipeline {
     agent any
+    
+    tools {
+        gradle "MyGradle'
+    }
 
     stages {
         stage('Build with Gradle') {
@@ -17,6 +21,7 @@ pipeline {
                 script {
                     def test = 2 + 2 > 3 ? "cool" : "really?"
                     echo test
+                    sh './gradlew -v'
                 }
             }
         }
