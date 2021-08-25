@@ -12,9 +12,9 @@ pipeline {
                 }
             }
         }
-        stage('Test') {
+        stage('Pull changes test...') {
             steps {
-                echo 'Testing..'
+                echo 'Jenkins does it by itself.'
             }
         }
         stage('Deploy') {
