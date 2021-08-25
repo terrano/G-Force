@@ -25,8 +25,6 @@ pipeline {
         stage('Just testing') {
             steps {
                 echo 'Small step for a man...'
-            }
-            steps {
                 echo '...Jaint leap for mankind'
             }
         }
