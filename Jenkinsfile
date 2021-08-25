@@ -17,11 +17,6 @@ pipeline {
                 echo 'Jenkins does it by itself.'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
         stage('Just another testing') {
             steps {
                 echo 'Small step for a man...'
