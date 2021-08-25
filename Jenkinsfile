@@ -12,7 +12,7 @@ pipeline {
                 echo 'Building..'
           /*      withGradle() {
                     sh './gradlew -v'
-          */      }
+                }*/
             }
         }
         stage('Pull changes test...') {
